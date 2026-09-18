@@ -21,24 +21,23 @@ def hesap_makinesi():
      elif x=="4": 
           a=int (input("birinci sayiyi giriniz:"))
           b=int (input("ikinci sayiyi giriniz:"))
-<<<<<<< HEAD
+
           if b==0:
            print("Hata! Bir sayi 0 ile bölünmez")
           else:
            print("Sonuç:",a/b)
             
-=======
-       if b==0:
+
+     if b==0:
               print("Hata! Bir sayi 0 ile bölünmez")
      else:
           print("Sonuç:",a/b)
       
->>>>>>> 19421037aff32fbcd710ad7798742a99e3b82f56
      elif x=="5":
-         print("cikis yapiliyor...")
-         break
+     print("cikis yapiliyor...")
+     break
  
-     else: print("hatali sayi girdiniz")
+ else: print("hatali sayi girdiniz")
   
 hesap_makinesi()
 
